@@ -49,7 +49,8 @@ const char *RESPONSE_OK_HEADER_TEMPLATE =
         "Expires: 0\r\n"
         "Cache-Control: no-cache, private\r\n"
         "Pragma: no-cache\r\n"
-        "Content-Type: multipart/x-mixed-replace; boundary=" BOUNDARY_SEPARATOR "\r\n";
+        "Content-Type: multipart/x-mixed-replace; boundary=" BOUNDARY_SEPARATOR "\r\n"
+        "Access-Control-Allow-Origin: *";
 
 const char *MULTIPART_HEADER =
         "\r\n" BOUNDARY_SEPARATOR "\r\n"
